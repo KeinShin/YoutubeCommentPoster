@@ -15,7 +15,6 @@
 
 comment=Comment(client_id="your google client id",
 client_secret="your google client secret",
-limit,
 channel_id='channel id',
 numberOfVideosToComment = 1
 )
