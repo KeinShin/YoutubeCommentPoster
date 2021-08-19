@@ -33,7 +33,7 @@ comment.insert_comment(text=text to comment,numberofCommentsToPost=1)
 client_secret="your google auth client secret",
 channel_id="channel id")
 
-comment.insert_comment(is_reply=True,apiKey=your google api key,number,numberOfCommentsToReply=1)
+comment.insert_comment(text=text,is_reply=True,apiKey=your google api key,number,numberOfCommentsToReply=1)
 ```
 
 
