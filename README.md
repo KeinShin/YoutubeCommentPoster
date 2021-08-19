@@ -21,10 +21,13 @@ numberOfVideosToComment = 1
 
 # Channel id is optional
 
-# bydefault if channel id is not provided comment will be posted on channels subscribed by you
+
 
 comment.insert_comment(text=text to comment,numberofCommentsToPost=1)
 ```
+**Channel id is optional**
+
+bydefault if channel id is not provided comment will be posted on channels subscribed by you
 
 
 **Reply to a random comment**
