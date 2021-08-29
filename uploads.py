@@ -45,6 +45,10 @@ class Videoids(Auth):
     maxResults=1,
 )
    if self.channelid:
+      if isinstance(self.channelid,list):
+         for  i in self.channelid:
+            subs.append(i)
+      else:
          subs.append(self.channelid)
    else:
          
